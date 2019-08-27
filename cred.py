@@ -1,0 +1,5 @@
+board_id = "5d6049d1944bd05ff523b429"
+API_key = "da5e08fe4fad69594e42ba71d5fb7dc8"
+oauth_token = "4a135fa694b34967936784491e56666232462dcb365d936bf621994189ded442"
+google_client_id = "369210339561-8fvg1l1p2mke4jpv4tfthq9af6qbcn50.apps.googleusercontent.com"
+google_client_secret = "CwK142CWgw7xJuLqkKn8J2Xj"
