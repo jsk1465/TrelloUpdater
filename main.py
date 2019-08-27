@@ -1,20 +1,19 @@
 # user https://github.com/gsuitedevs/python-samples/blob/master/calendar/quickstart/README.md
 # for google api
-import requests
 import json
 import datetime
 import os.path
 
+import requests
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 
 from cred import *
+from TrelloEvent import TrelloEvent
 
 BASE_URL = "https://api.trello.com/1/"
 credLine = f"/{board_id}?key={API_key}&token={oauth_token}"
-
-
 
 def makeURL(version):
     return BASE_URL + version + credLine
@@ -49,13 +48,23 @@ def getListsW():
     return listHash
 
 
-def getGoogleData():
+def getGoogleData(data):
+    """"
+        This gets all the data from google regarding the data given by the parameters
+        @param data a list of partially filled out ClassEvents
+    """
     pass
 
-
+def setGoogleData(data):
+    """
+        This resets/adds all the dates in google callanders 
+        @param data this is a list of Completely filled Class Events
+    """
+    pass
 
 def main():
     pass
+
 if(__name__=='__main__'):
     # main()
     pass
